@@ -1,0 +1,47 @@
+.rececard {
+  border: 1px solid #512615;
+  width: 80%;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #ebd3bb;
+  color: #512615;
+  font-weight: 400;
+  margin: 15px;
+  box-shadow: 10px 10px 5px 0px #51261587;
+}
+
+.rececard h1 {
+  font-size: 24px;
+}
+
+.resto {
+  padding: 15px;
+}
+
+.imagencard {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imagencard img {
+  width: 100%;
+}
+
+.leermas {
+  text-align: right;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+@media (min-width: 450px) {
+  .rececard {
+    width: 50%;
+  }
+}
+
+@media (min-width: 750px) {
+  .rececard {
+    width: 30%;
+    max-width: 300px;
+  }
+}

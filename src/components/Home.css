@@ -1,0 +1,63 @@
+.container-home {
+  padding: 20px;
+}
+.title {
+  line-height: 1;
+  color: #512615;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.imagenreceta {
+  width: 100%;
+  padding: 15px auto;
+  margin-bottom: 15px;
+}
+
+.imagenreceta img {
+  width: 100%;
+}
+
+.ingredientes {
+  background-color: #ebd3bb;
+  padding: 15px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.preparacion {
+  margin: 15px;
+}
+
+@media (min-width: 750px) {
+  .imagenreceta {
+    width: 50%;
+  }
+  .container-ing-prep {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .preparacion {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .imagenreceta {
+    width: 35%;
+  }
+  .ingredientes {
+    width: 45%;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .preparacion {
+    font-size: 20px;
+    margin-right: 25px;
+  }
+}
